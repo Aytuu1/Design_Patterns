@@ -27,7 +27,7 @@ namespace DesignPattern_ChainOfResponsibility.ChainOfResponsibility
         customerProcess.Description = "Para Çekme Tutarı Bölge Direktörünün  Günlük Ödeyebileceği limiti aştığı için İşlem gerçekleştirilemedi. Müşterinin günlük çekebileceği tutar 400.000₺ olup daha fazlası için birden fazla gün şubeye gelmesi gerekmektedir.";
 
         context.customerProcesses.Add(customerProcess);
-        context.SaveChanges();
+        context.SaveChanges(); 
       }
     }
   }
